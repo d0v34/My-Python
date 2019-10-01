@@ -1,7 +1,7 @@
 print("Hej")
 print("jak masz na imie?")
 name = input()
-print("Witaj", name, ","jak sie masz?")
+print("Witaj", name, "jak sie masz?")
 print("Ile masz lat?")
 age = input()
 print("Znasz peron Harrego Pottera?")
