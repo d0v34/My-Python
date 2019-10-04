@@ -1,4 +1,4 @@
-# Kurs Pythona jest prosty i przyjemny.
+# Dziala dobrze dla "Kurs Pythona jest prosty i przyjemny."
 sentence = input("Wpisz dowolne zdanie: ")
 print("="*10)
 print("Twoje zdanie zawiera ", len(sentence), " znakow")
