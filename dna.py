@@ -51,4 +51,5 @@ temp = temp.replace('-','')
 # Zamian DNA na RNA T->U
 temp = temp.replace('T','U')
 print("="*80)
+# Wyswietl RNA
 print(temp)
