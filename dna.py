@@ -27,5 +27,25 @@ CGGTGAAGTAGCTTCG-GGCGTTGGGTCCAGCACTTGGCCACAGTGAGGCTGNAAATGGCTGCAGGAACG
 GTGGTCCCCCCGCAAGGCCCCCATGGTCCCACCTCCCTGCCTGGCCCCTCCCGCTCCAGCGCCNCCAGCC
 '''
 temp = DNA.strip()
+temp = temp.upper()
+print(temp)
+print("="*80)
+print("Bialka A:", temp.count('A'))
+print("Bialka C:", temp.count('C'))
+print("Bialka G:", temp.count('G'))
+print("Bialka T:", temp.count('T'))
 print("Dlugosc sekwecji:", len(temp))
-print("Ilosc sekwencji GAGA:", temp.find("GAGA", beg=0, end=len(temp)))
+print("Ilosc sekwencji GAGA:", temp.count('GAGA'))
+# Zamiana GAGA -> AGAG
+temp.replace('GAGA', 'AGAG')
+print("7xG pozycja:", temp.index('GGGGGGG'))
+print("6xC od konca pozycja:", temp.rindex('CCCCCC'))
+print("Ilosc sekwencji CTGAAA:", temp.count('CTGAAA'))
+print("Ilosc sekwencji CTGAA:", temp.count('CTGAA'))
+# Usuwanie bledow DNA
+temp = temp.replace('N','')
+temp = temp.replace('-','')
+# Zamian DNA na RNS T->U
+temp = temp.replace('T','U')
+print("="*80)
+print(temp)
