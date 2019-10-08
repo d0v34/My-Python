@@ -30,6 +30,7 @@ GTGGTCCCCCCGCAAGGCCCCCATGGTCCCACCTCCCTGCCTGGCCCCTCCCGCTCCAGCGCCNCCAGCC
 temp = DNA.upper()
 temp = temp.replace("\n","")
 # Wyswietl DNA
+print("="*80)
 print(temp)
 print("="*80)
 print("Bialka A:", temp.count('A'))
@@ -53,3 +54,5 @@ temp = temp.replace('T','U')
 print("="*80)
 # Wyswietl RNA
 print(temp)
+print("="*80)
+
