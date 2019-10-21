@@ -1,1 +1,1 @@
-print("Na dzisiaj wystarczy")
+print("Na dzisiaj wystarczy!!!")
