@@ -2,8 +2,8 @@ print("Ile masz lat?")
 age = int(input())
 
 if age >= 18 :
-    print("Jests pelnoletni")
+    print("Jestes pelnoletni")
 if age > 100 :
-    print("To naprawdêwóiek?")
+    print("To naprawde twoj wiek?")
 else :
     print("Zostalo ci", 18-age ,"lat do pelnoletnosci")
