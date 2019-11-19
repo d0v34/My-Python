@@ -2,7 +2,7 @@ print("Ile masz lat?")
 age = int(input())
 
 if age < 18 :
-    print("Jestes pelnoletni")
+    print("Uzytkownik niepelnoletni")
     print("Zapraszam za", 18-age ,"lat")
 if age >= 18 :
     print("Uzytkownik pelnoletni")
