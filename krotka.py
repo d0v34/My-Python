@@ -38,4 +38,3 @@ auto = ('audi', 'q7', 3.8, 2020)
 (marka, model, poj, rok) = auto                 # belka = nazwa rekordu = zmienne przypisane do krotki
 print(marka)
 print(rok)
-
